@@ -1,0 +1,35 @@
+<!--<button class="btn btn-primary" (click)="goBack()">go back</button>-->
+<div class="">
+  <div>
+    <div class="card">
+      <div class="card-header">
+        Product detail
+      </div>
+      <div class="card-body">
+        <table class="table table-hover">
+          <thead>
+          <tr>
+            <th scope="col">#</th>
+            <th scope="col">Name</th>
+            <th scope="col">Description</th>
+            <th scope="col">Price</th>
+            <th colspan="2" scope="col"></th>
+          </tr>
+          </thead>
+          <tbody>
+          <tr *ngIf="product">
+            <th scope="row">{{product.id}}</th>
+            <td>{{product.name}}</td>
+            <td>{{product.description}}</td>
+            <td>{{product.price}}</td>
+            <td colspan="2">
+              <button class="btn btn-warning" routerLink="./update/{{product.id}}">Edit</button>
+              <button class="btn btn-danger" >Delete</button>
+            </td>
+          </tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+  </div>
+</div>

@@ -1,0 +1,35 @@
+
+/* HeroesComponent's private CSS styles */
+button{
+  margin: 0 5px;
+}
+.card-custom{
+  display: flex;
+  margin-top: 10px;
+  /*justify-content: space-between;*/
+}
+form{
+  margin-left: 200px;
+}
+a{
+  text-decoration: none;
+}
+.table tr:hover {
+  color: #2c3a41;
+  background-color: #e6e6e6;
+  left: .1em;
+  /*cursor: pointer;*/
+}
+.table tr.selected {
+  background-color: #3248dc;
+  color: white;
+}
+.table tr.selected:hover {
+  background-color: #3dbb3f;
+  color: white;
+}
+.table tr.selected:active {
+  background-color: #2849aa;
+  color: white;
+}
+

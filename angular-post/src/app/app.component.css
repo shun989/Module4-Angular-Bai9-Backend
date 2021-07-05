@@ -1,0 +1,7 @@
+div{
+  display: flex;
+}
+.menu{
+  min-width: 250px;
+  background-color: #2f82ff;
+}

@@ -4,12 +4,12 @@ import {HttpClient} from "@angular/common/http";
 @Injectable({
   providedIn: 'root'
 })
-export class PostService {
+export class TodosService {
 
   constructor(private http: HttpClient) { }
 
-  getData() {
-    let url = "https://jsonplaceholder.typicode.com/posts";
+  getDAta() {
+    let url = "https://jsonplaceholder.typicode.com/todos";
     return this.http.get(url);
   }
 }

@@ -1,0 +1,32 @@
+{
+  "posts": [
+    {
+      "id": 2,
+      "firstName": "Tạ",
+      "lastName": "Minh Tuấn",
+      "email": "tuan@gmail.com",
+      "phone": "0971885815",
+      "salary": "3000000"
+    },
+    {
+      "id": 3,
+      "firstName": "Pham",
+      "lastName": "Trong",
+      "email": "trong@gmail.com",
+      "phone": "0123456789",
+      "salary": "2000000"
+    },
+    {
+      "id": 4,
+      "firstName": "nguyen",
+      "lastName": "a nam",
+      "email": "phong@gmail.com",
+      "phone": "0321546789",
+      "salary": "1234567890"
+    }
+  ],
+  "comments": [],
+  "profile": {
+    "name": "typicode"
+  }
+}
